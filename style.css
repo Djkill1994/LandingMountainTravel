@@ -1,0 +1,365 @@
+body {
+    background: #0B1D26FF;
+}
+
+.gradient-bg {
+    height: 1200px;
+    left: 0;
+    top: -3.5px;
+    background: linear-gradient(330.24deg, rgba(11, 29, 38, 0) 30.87%, #0B1D26 108.74%);
+    z-index: 1;
+}
+
+.clouds-bg {
+    height: 1513px;
+    left: 0;
+    top: -400px;
+    background: url(img/HG.jpg);
+}
+
+.mountains-bg {
+    height: 1422px;
+    left: 0;
+    top: 464px;
+    background: url(img/MG.png);
+}
+
+.human-bg {
+    height: 926px;
+    left: 0;
+    top: 768px;
+    background: url(img/VG.png);
+}
+
+.blackout-bg{
+    position: absolute;
+    width: 1895px;
+    height: 700px;
+    left: 0;
+    top: 1265px;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+}
+
+.gradient-bg, .clouds-bg, .human-bg, .mountains-bg {
+    width: 1895px;
+    position: absolute;
+}
+
+.header {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 1760px;
+    height: 25px;
+    z-index: 2;
+    left: 80px;
+    top: 64px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+    background: url("img/logoDJKILL.png");
+    position: absolute;
+    width: 330px;
+    height: 150px;
+    left: -90px;
+    top: -55px;
+}
+
+.header-navigation {
+    gap: 30px;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.account {
+    position: absolute;
+    display: flex;
+    left: 1700px;
+}
+
+.logo-account {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -30px;
+    color: white;
+}
+
+.init-view-content {
+    position: absolute;
+    left: 500px;
+    top: 287px;
+    z-index: 2;
+}
+
+.init-text {
+    width: 950px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    color: #FFFFFF;
+    margin: 32px 0;
+}
+
+.init-contain {
+    position: absolute;
+    width: 316px;
+    height: 22px;
+    top: -60px;
+    margin: 32px 0;
+}
+
+.init-inscription {
+    position: absolute;
+    width: 234px;
+    height: 22px;
+    left: 104px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.init-line {
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 0;
+    top: 10px;
+    background: #FBD784;
+}
+
+.scroll-contain {
+    position: absolute;
+    width: 126px;
+    height: 24px;
+    left: 0;
+    top: 230px;
+    margin: 32px 0;
+    display: flex;
+}
+
+.scroll-text {
+    width: 105px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.init-arrow {
+    width: 16px;
+    background: url("img/arrow.svg");
+}
+
+.social-networks-contain {
+    position: absolute;
+    width: 25px;
+    height: 173px;
+    left: 80px;
+    top: 359px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-text {
+    width: 88px;
+    height: 22px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 22px;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+    margin: 48px;
+
+}
+
+.instagram {
+    width: 24px;
+    height: 24px;
+    margin: 15px 20px 25px 20px;
+}
+
+.twitter {
+    width: 24px;
+    height: 24px;
+}
+
+.page-content-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    position: absolute;
+    width: 1462px;
+    height: 3040px;
+    left: 229px;
+    top: 1440px;
+}
+
+.content-1{
+    position: static;
+    width: 1462px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 200px 0px;
+}
+
+.numb-cont-1{
+    position: absolute;
+    top: 0.28%;
+    font-weight: bold;
+    font-size: 240px;
+    color: #FFFFFF;
+    opacity: 0.1;
+}
+
+.img-cont-1{
+    position: absolute;
+    left: 61.29%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: url(img/01Content.jpg);
+    background-repeat: no-repeat;
+}
+
+.text-contain-cont-1{
+    position: absolute;
+    left: 10.26%;
+    top: 4.58%;
+}
+
+.tag-line-1{
+    position: static;
+    width: 268px;
+    height: 22px;
+    left: 0px;
+    top: 0px;
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+
+.line-1{
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    left: 0px;
+    top: 10px;
+    background: #FBD784;
+}
+
+.text-line-1{
+    position: absolute;
+    width: 172px;
+    height: 22px;
+    left: 96px;
+    top: 0px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.capital-text-1{
+    position: static;
+    width: 555px;
+    height: 154px;
+    left: 0px;
+    top: 49px;
+    font-family: Chronicle Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+
+.content-text-1{
+    position: static;
+    width: 632px;
+    height: 160px;
+    left: 0px;
+    top: 230px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    flex: none;
+    order: 2;
+    align-self: center;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+
+.read-more-1{
+    position: static;
+    width: 127px;
+    height: 22px;
+    left: 0px;
+    top: 417px;
+    flex: none;
+    order: 3;
+    align-self: flex-start;
+    flex-grow: 0;
+    margin: 27px 0px;
+}
+
+.more-text-1{
+    position: absolute;
+    width: 87px;
+    height: 22px;
+    left: 0px;
+    top: 417px;
+    font-family: Gilroy;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBD784;
+}
+
+.more-arrow-1{
+    position: absolute;
+    width: 16px;
+    height: 24px;
+    left: 103px;
+    top: 436px;
+    transform: rotate(-90deg);
+}
