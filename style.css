@@ -206,10 +206,6 @@ a:link {
 }
 
 .page-content-contain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
     position: absolute;
     width: 1462px;
     height: 3040px;
@@ -218,20 +214,11 @@ a:link {
 }
 
 .content-1{
-    position: static;
     width: 1462px;
     height: 720px;
-    left: 0px;
-    top: 0px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 200px 0px;
 }
 
 .numb-cont-1{
-    position: absolute;
-    top: 0.28%;
     font-weight: bold;
     font-size: 240px;
     color: #FFFFFF;
@@ -241,11 +228,12 @@ a:link {
 .img-cont-1{
     position: absolute;
     left: 61.29%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    background: url(img/01Content.jpg);
-    background-repeat: no-repeat;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 566px;
+    height: 720px;
+    background: url(img/01Content.jpg) no-repeat;
 }
 
 .text-contain-cont-1{
@@ -255,103 +243,60 @@ a:link {
 }
 
 .tag-line-1{
-    position: static;
     width: 268px;
-    height: 22px;
-    left: 0px;
-    top: 0px;
-    flex: none;
-    order: 0;
-    align-self: flex-start;
-    flex-grow: 0;
-    margin: 27px 0px;
 }
 
 .line-1{
     position: absolute;
     width: 72px;
     height: 2px;
-    left: 0px;
     top: 10px;
     background: #FBD784;
 }
 
 .text-line-1{
     position: absolute;
-    width: 172px;
+    width: 192px;
     height: 22px;
     left: 96px;
-    top: 0px;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 22px;
     letter-spacing: 6px;
-    text-transform: uppercase;
     color: #FBD784;
 }
 
 .capital-text-1{
-    position: static;
     width: 555px;
     height: 154px;
-    left: 0px;
-    top: 49px;
-    font-family: Chronicle Display;
-    font-style: normal;
     font-weight: 600;
     font-size: 64px;
-    line-height: 77px;
     color: #FFFFFF;
-    flex: none;
-    order: 1;
-    align-self: flex-start;
-    flex-grow: 0;
-    margin: 27px 0px;
+    margin: 33px 0;
 }
 
 .content-text-1{
-    position: static;
     width: 632px;
     height: 160px;
-    left: 0px;
-    top: 230px;
-    font-family: Gilroy;
-    font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
     color: #FFFFFF;
-    flex: none;
-    order: 2;
-    align-self: center;
-    flex-grow: 0;
-    margin: 27px 0px;
 }
 
 .read-more-1{
-    position: static;
+    position: absolute;
     width: 127px;
     height: 22px;
-    left: 0px;
-    top: 417px;
-    flex: none;
-    order: 3;
-    align-self: flex-start;
-    flex-grow: 0;
-    margin: 27px 0px;
+    top: -8px;
 }
 
 .more-text-1{
     position: absolute;
     width: 87px;
     height: 22px;
-    left: 0px;
     top: 417px;
-    font-family: Gilroy;
     font-size: 18px;
-    line-height: 22px;
     color: #FBD784;
 }
 
@@ -360,6 +305,99 @@ a:link {
     width: 16px;
     height: 24px;
     left: 103px;
-    top: 436px;
-    transform: rotate(-90deg);
+    top: 423px;
+}
+
+.content-2{
+    position: absolute;
+    width: 1462px;
+    height: 720px;
+    top: 935px;
+}
+
+.img-cont-2{
+    position: absolute;
+    inset: 0 61.29% 0 0;
+    background: url("img/02Content.jpg") no-repeat;
+}
+
+.numb-cont-2{
+    position: absolute;
+    inset: 0 0 0 46.51%;
+    font-weight: bold;
+    font-size: 240px;
+    color: rgb(255, 255, 255);
+    opacity: 0.1;
+}
+
+.text-contain-cont-2{
+    position: absolute;
+    inset: 18.58% 0 19.44% 56.77%;
+}
+
+.tag-line-2{
+    /* position: static; */
+    /* width: 354px; */
+    /* height: 22px; */
+    /* left: 0px; */
+    /* top: 0px; */
+    /* flex: 0 0 auto; */
+    /* order: 0; */
+    /* margin: 27px 0px; */
+}
+
+.line-2{
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    top: 10px;
+    background: rgb(251, 215, 132);
+}
+
+.text-line-2{
+    position: absolute;
+    width: 287px;
+    height: 22px;
+    left: 96px;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 6px;
+    color: rgb(251, 215, 132);
+}
+
+.capital-text-2{
+    font-weight: 600;
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    margin: 33px 0;
+}
+
+.content-text-2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(255, 255, 255);
+}
+
+.read-more-2{
+    position: absolute;
+    top: -41px;
+}
+
+.more-text-2{
+    position: absolute;
+    width: 87px;
+    height: 22px;
+    top: 417px;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(251, 215, 132);
+}
+
+.more-arrow-2{
+    position: absolute;
+    width: 16px;
+    height: 24px;
+    left: 103px;
+    top: 422px;
 }
