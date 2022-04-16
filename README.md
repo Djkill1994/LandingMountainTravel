@@ -1,7 +1,7 @@
 
-My training project on layout "Landing mountain travel"
+My training project on layout "Landing mountain travel 🚵 "
 
-Screen:
+Screen 📸 :
 
 ![Снимок экрана (35)](https://user-images.githubusercontent.com/84898137/163268454-229ebcf5-ddac-4655-bbd4-0c36cbd8a431.png)
 
@@ -17,7 +17,7 @@ Screen:
 
 ![Снимок экрана (39)](https://user-images.githubusercontent.com/84898137/163268485-e52e1741-f87b-4b49-a7d0-a2b672c171f9.png)
 
-Video: 
+Video 🎥 : 
 
 
 https://user-images.githubusercontent.com/84898137/163268648-0d5b0da8-7047-4742-b800-3d54dd140c15.mp4
